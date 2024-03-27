@@ -13,7 +13,7 @@ function Hero() {
                 <p>for everyone</p>
             </div>
             <div>
-                <button className="hero-latest-button"><a href="/newCollections">Latest Collection</a><img src={arrow_icon} alt="" /></button>
+                <button className="hero-latest-button"><a href="/Senior_Project_2024/newCollections">Latest Collection</a><img src={arrow_icon} alt="" /></button>
             </div>
         </div>
         <div className="hero-right">

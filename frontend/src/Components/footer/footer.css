@@ -1,0 +1,114 @@
+.footer{
+    height: 15vh;
+    background: black;
+}
+
+.left-footer{
+    float: left;
+    color: white;
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.customer-service{
+    display: block;
+    list-style-type: none;
+    text-align: left;
+}
+
+.customer-service h1{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.customer-service li{
+    font-size: 15px;
+    &:hover{
+        color: lightgray;
+    }
+}
+
+.about-us{
+    display: block;
+    list-style-type: none;
+    text-align: left;
+    
+}
+
+.about-us h1{
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.about-us li{
+    font-size: 15px;
+    &:hover{
+        color: lightgray;
+    }
+}
+
+.right-footer{
+    margin-top: 30px;
+    float: right;
+    margin-right: 300px;
+    color: white;
+}
+
+.right-footer p{
+    font-size: 20px;
+
+}
+.signup{
+    margin-top: 10px;
+    display: flex;
+    gap:20px
+}
+
+.signup input{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    background: #6394F8;
+    color: white;
+}
+
+.signup ::placeholder{
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.signup button{
+    background: #6394F8;
+    width: 75px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.separate {
+    border-left: 2px solid white;
+    height: 100px;
+    position:absolute;
+    left: 50%;
+    margin-top: 15px;
+    margin-left: 160px;
+}
+
+.logo{
+    float: left;
+    margin-top: 60px;
+    margin-left:100px;
+    font-size: 30px;
+    color: white;
+}
+
+.copyright{
+    position:absolute;
+    margin-top: 15px;
+}

@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 
-function product() {
+function Product() {
   return (
     <div></div>
   );
 }
 
-export default product;
+export default Product;

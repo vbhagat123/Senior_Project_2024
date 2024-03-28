@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
-
 function loginSignup() {
   return (
-    <div></div>
+    <div>
+      
+    </div>
   );
 }
 

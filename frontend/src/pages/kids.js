@@ -1,14 +1,13 @@
-import { useContext } from "react"
 import  "./CSS/ShopCategory.css"
-import { ShopContext } from "../Context/ShopContext";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png"
 import Item from "../Components/item/item";
+import kid_banner from '../Components/Assets/banner_kids.png'
+import all_product from "../Components/Assets/all_product";
 
-function Kids(props) {
-  const {all_product} = useContext(ShopContext);
+function Kids() {
   return (
     <div className='shop-category'>
-      <img className='shopcategory-banner'src={props.banner} alt="" />
+      <img className='shopcategory-banner'src={kid_banner} alt="" />
       <div className="shopcategory-indexSort">
         <p>
           <span>Showing 1-12</span> out of 36 products
@@ -25,7 +24,9 @@ function Kids(props) {
         })}
       </div>
       <div className="shopcategory-loadmore">
+        <button className="shopcategory-loadmore">
         Load More
+        </button>
       </div>
     </div>
   );

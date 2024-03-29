@@ -75,17 +75,18 @@
 
 .nav-item:hover:after {
   width: 100%;
-  background: #6394F8;
+  background: rgba(128,208,199,1) 100%;
 }
 
 .nav-item .active {
-  color: #6394F8;
-  border: 1px solid #6394F8;
+  color: rgba(128,208,199,1);
+  border: 1px solid rgba(128,208,199,1);
+  border-radius: 30px;
 }
 
 .nav-icon {
   display: none;
-  color: #6394F8;
+  color: rgba(128,208,199,1) ;
 }
 
 .nav-icon .icon {

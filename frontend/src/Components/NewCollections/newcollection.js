@@ -1,9 +1,9 @@
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+
 import './newcollection.css'
 import new_collections from '../Assets/new_collections'
 import Item from '../item/item';
 
-function Collection() {
+function NewCollection() {
   return (   
     <div className='new-collections'>
       <h1> Latest Arrivals </h1>
@@ -17,4 +17,4 @@ function Collection() {
   );
 }
 
-export default Collection;
+export default NewCollection;

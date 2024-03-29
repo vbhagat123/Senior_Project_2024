@@ -1,12 +1,10 @@
-import { useContext } from "react"
 import  "./CSS/ShopCategory.css"
-import { ShopContext } from "../Context/ShopContext";
 import dropdown_icon from "../Components/Assets/dropdown_icon.png"
 import Item from "../Components/item/item";
 import men_banner from '../Components/Assets/banner_mens.png'
+import all_product from "../Components/Assets/all_product";
 
 function Mens() {
-  const {all_product} = useContext(ShopContext);
   return (
     <div className='shop-category'>
       <img src={men_banner} alt="" />
@@ -25,8 +23,10 @@ function Mens() {
           }
         })}
       </div>
-      <div className="shopcategory-loadmore">
+      <div >
+        <button className="shopcategory-loadmore">
         Load More
+        </button>
       </div>
     </div>
   );

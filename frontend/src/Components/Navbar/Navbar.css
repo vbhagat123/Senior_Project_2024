@@ -144,4 +144,8 @@
     cursor: pointer;
     color: #6394F8;
   }
+  
+  .nav-icon .icon{
+    font-size: 25px;
+  }
 }

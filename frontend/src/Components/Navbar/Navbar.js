@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css"
-import { CodeIcon, HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 
 function NavBar() {
   const [click, setClick] = useState(false);
@@ -13,10 +12,6 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
             <span>Threads</span>
-            {/* <i className="fas fa-code"></i> */}
-            <span className="icon">
-              <CodeIcon />
-            </span>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -67,7 +62,7 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/Login"
+                to="/loginSignup"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
@@ -92,11 +87,11 @@ function NavBar() {
 
             {click ? (
               <span className="icon">
-                <HamburgetMenuClose />
+                <div>x</div>
               </span>
             ) : (
               <span className="icon">
-                <HamburgetMenuOpen />{" "}
+                <div>☰</div>
               </span>
             )}
           </div>

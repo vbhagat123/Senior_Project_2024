@@ -22,7 +22,7 @@ function Hero() {
                   Latest Collection
                   </NavLink>
                   <img src={arrow_icon} alt="" />
-                  </button>
+                </button>
             </div>
         </div>
         <div className="hero-right">

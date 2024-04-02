@@ -17,6 +17,7 @@
     height: 6px;
     border-radius: 10px;
     background: black;
+    border: 1px solid black
 }
 
 .top-stuff {

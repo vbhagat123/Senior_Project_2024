@@ -7,7 +7,7 @@ import all_product from "../Components/Assets/all_product";
 function Womens() {
   return (
     <div className='shop-category'>
-      <img src={women_banner} alt="" />
+      <img className='shopcategory-banner' src={women_banner} alt="" />
       <div className="shopcategory-indexSort">
         <p>
           <span>Showing 1-12</span> out of 36 products

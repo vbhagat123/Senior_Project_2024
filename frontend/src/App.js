@@ -7,9 +7,8 @@ import Womens from './pages/womens.js'
 import Kids from './pages/kids.js'
 import Shop from './pages/shop';
 import Cart from './pages/cart';
-import Product from './pages/product'
 import NewCollection from './Components/NewCollections/newcollection.js';
-import Login from './pages/login.js';
+import LoginSignup from './pages/loginsignup.js'
 
 function App() {
   return (
@@ -22,11 +21,8 @@ function App() {
         <Route path='/Mens' element={<Mens/>}/>
         <Route path='/Womens' element={<Womens />}/>
         <Route path='/Kids' element={<Kids  />}/>
-        <Route path="/product" element={<Product/>}>
-          <Route path=':productId' element={<Product/>}/>  
-        </Route>
         <Route path='/cart' element={<Cart/>}/>
-        <Route path='/login' element={<Login/>}/>
+        <Route path='/loginSignup' element={<LoginSignup/>}/>
       </Routes>
       </BrowserRouter>
     </div>

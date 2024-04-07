@@ -4,7 +4,8 @@ function Footer() {
   return (   
     <footer className='footer'>  
         <div className='logo'>
-            <p>Store</p>
+            <p>Threads Inc.</p>
+            <hr></hr>
         </div>
         <div className="left-footer">
             <div className='customer-service'>
@@ -20,6 +21,7 @@ function Footer() {
                 <li> Meet the developers </li>
             </div>
         </div>
+        <hr className='separate-responsive'></hr>
         <div class="separate"></div>
         <div className='right-footer'>
             <p> Be the first to hear about the latest deals and more!</p>

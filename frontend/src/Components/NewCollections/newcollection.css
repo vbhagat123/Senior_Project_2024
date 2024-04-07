@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
-    height: 90vh;
+    gap: 5px;
+    height: 130vh;
 }
 
 .new h1{
@@ -25,4 +25,14 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-top: 50px;
     gap: 30px;
+}
+
+@media (max-width:430px) {
+    .new{
+        height: 260vh;
+    }
+    .collections {
+        margin-top: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
 }

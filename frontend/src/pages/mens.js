@@ -1,5 +1,4 @@
 import  "./CSS/ShopCategory.css"
-import dropdown_icon from "../Components/Assets/dropdown_icon.png"
 import Item from "../Components/item/item";
 import men_banner from '../Components/Assets/banner_mens.png'
 import all_product from "../Components/Assets/all_product";
@@ -8,14 +7,6 @@ function Mens() {
   return (
     <div className='shop-category'>
       <img className='shopcategory-banner' src={men_banner} alt="" />
-      <div className="shopcategory-indexSort">
-        <p>
-          <span>Showing 1-12</span> out of 36 products
-        </p>
-        <div className="shopcategory-sort">
-          sort by <img src={dropdown_icon} alt=""/>
-        </div>
-      </div>
       <div className="shopcategory-products">
         {all_product.map((item,i)=>{
           if ("men"=== item.category){
@@ -23,8 +14,8 @@ function Mens() {
           }
         })}
       </div>
-      <div >
-        <button className="shopcategory-loadmore">
+      <div className="shopcategory-loadmore">
+        <button>
         Load More
         </button>
       </div>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import './Hero.css'
-import arrow_icon from '../Assets/right-arrow.png'
-import hero_image from '../Assets/hero.png'
+import arrow_icon from '../Assets/icons/right-arrow.png'
+import hero_image from '../Assets/hero/hero.png'
 
 function Hero() {
   const [click, setClick] = useState(false);

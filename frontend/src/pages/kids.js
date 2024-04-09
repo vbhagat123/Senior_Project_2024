@@ -1,6 +1,6 @@
 import  "./CSS/ShopCategory.css"
 import Item from "../Components/item/item";
-import kid_banner from '../Components/Assets/banner_kids.png'
+import kid_banner from '../Components/Assets/banners/banner_kids.png'
 import all_product from "../Components/Assets/all_product";
 
 function Kids() {

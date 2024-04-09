@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
-    height: 90vh;
+    height: auto;
 }
 
 .popular h1{
@@ -30,7 +30,6 @@
 @media (max-width:430px) {
     .popular{
         margin-top: 60px;
-        height: 160vh;
     }
     .top-stuff {
         margin-top: 20px;

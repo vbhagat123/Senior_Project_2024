@@ -1,6 +1,6 @@
 import  "./CSS/ShopCategory.css"
 import Item from "../Components/item/item";
-import women_banner from '../Components/Assets/banner_women.png'
+import women_banner from '../Components/Assets/banners/banner_women.png'
 import all_product from "../Components/Assets/all_product";
 
 function Womens() {

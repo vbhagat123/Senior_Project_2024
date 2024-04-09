@@ -1,7 +1,8 @@
 .footer{
-    margin-top:auto;
+    margin-top:10px;
     height: 15vh;
     background: black;
+    padding-bottom: 20px;
 }
 
 .left-footer{
@@ -120,7 +121,7 @@
     .footer{
         display: flex;
         flex-direction: column;
-        height: 70vh;
+        height: auto;
     }
 
     .logo{

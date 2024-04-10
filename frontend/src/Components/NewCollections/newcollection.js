@@ -1,6 +1,5 @@
-
 import './newcollection.css'
-import new_collections from '../Assets/new_collections'
+import latest_arrival from '../Assets/New_Arrivals/latest_arrival'
 import Item from '../item/item';
 
 function NewCollection() {
@@ -9,7 +8,7 @@ function NewCollection() {
       <h1> Latest Arrivals </h1>
       <hr/>
         <div className='collections'>
-          {new_collections.map((item,i) => {
+          {latest_arrival.map((item,i) => {
             return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} />
           })}
         </div>

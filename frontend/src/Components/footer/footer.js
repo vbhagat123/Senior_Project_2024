@@ -5,7 +5,7 @@ function Footer() {
     <footer className='footer'>  
         <div className='logo'>
             <p>Threads Inc.</p>
-            <hr></hr>
+            <hr ></hr>
         </div>
         <div className="left-footer">
             <div className='customer-service'>

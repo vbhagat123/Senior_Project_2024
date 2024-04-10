@@ -1,17 +1,12 @@
-import  "./CSS/ShopCategory.css"
+import  "./CSS/genderPages.css"
 import Item from "../Components/item/item";
-import men_banner from '../Components/Assets/banners/banner_mens.png'
-import all_product from "../Components/Assets/all_product";
-
+import men_products from "../Components/Assets/Mens/men_products"
 function Mens() {
   return (
     <div className='shop-category'>
-      <img className='shopcategory-banner' src={men_banner} alt="" />
       <div className="shopcategory-products">
-        {all_product.map((item,i)=>{
-          if ("men"=== item.category){
+        {men_products.map((item,i)=>{
             return <Item key={i} id={item.id} name={item.name} image={item.image} new_price={item.new_price} />
-          }
         })}
       </div>
       <div className="shopcategory-loadmore">
